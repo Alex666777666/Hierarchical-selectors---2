@@ -8,12 +8,12 @@ ol {
   background-color: orange;
   color: green;
 }
-section,
-code {
+
+code [section='already-learned'] {
   background-color: orange;
 }
-section,
-code {
+
+code [section='to-be-learned'] {
   background-color: green;
 }
 h4,
