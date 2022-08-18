@@ -17,7 +17,8 @@ section.to-be-learned code {
   background-color: green;
 }
 h4,
-code [id='special1'] {
+code,
+id.special1 {
   border: 2px solid blue;
 }
 [id='special2'] {
