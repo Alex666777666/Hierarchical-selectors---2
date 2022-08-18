@@ -21,6 +21,7 @@ code,
 id.special1 {
   border: 2px solid blue;
 }
-[id='special2'] {
+code,
+id.special2 {
   font-size: 24px;
 }
