@@ -9,11 +9,11 @@ ol {
   color: green;
 }
 
-code [section='already-learned'] {
+section.already-learned code {
   background-color: orange;
 }
 
-code [section='to-be-learned'] {
+section.to-be-learned code {
   background-color: green;
 }
 h4,
