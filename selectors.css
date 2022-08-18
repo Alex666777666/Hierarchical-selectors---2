@@ -1,0 +1,25 @@
+section,
+ul {
+  background-color: green;
+  color: white;
+}
+section,
+ol {
+  background-color: orange;
+  color: green;
+}
+section,
+code {
+  background-color: orange;
+}
+section,
+code {
+  background-color: green;
+}
+h4,
+code [id='special1'] {
+  border: 2px solid blue;
+}
+[id='special2'] {
+  font-size: 24px;
+}
