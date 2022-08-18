@@ -1,27 +1,25 @@
-section,
-ul {
+.already-learned > ol {
   background-color: green;
   color: white;
 }
-section,
-ol {
+
+.to-be-learned > ol {
   background-color: orange;
   color: green;
 }
 
-section.already-learned code {
+.already-learned code {
   background-color: orange;
 }
 
-section.to-be-learned code {
+.to-be-learned code {
   background-color: green;
 }
 
-code,
-id.special1 {
+[id='special1'] ~ li > h4 > code {
   border: 2px solid blue;
 }
-code,
-id.special2 {
+
+[id='special2'] ~ li {
   font-size: 24px;
 }
